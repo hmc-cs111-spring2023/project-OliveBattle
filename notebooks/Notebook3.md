@@ -2,21 +2,11 @@
 
 ## Last week's critique
 
-**TODO:** Fill in this part with a summary and reflection on the critique you received for
-last week's work. Answer questions such as:  How, specifically, did the feedback help
-improve the project? Did the feedback point out or offer something you hadn't considered?
-Did it help you make a design decision? Was it helpful in addressing the most pressing
-issues in your project? How will you incorporate the feedback into your work? Will you
-change something about the design, implementation, or evaluation as a result?
+The critique I recieved last week was good for finalizing some of the specifics of my DSL's syntax, which should make it a lot more usable. More importantly, I got a few key good pieces of advice for tools to use for the final output to pdf- by writing to an "intermediate language", then putting that through a tool to convert it to the final PDF, things can be done easier.
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+This week, I ended up doing a lot more work on the syntax and parsing parts of the DSL. It's not complete yet, but after looking for parsing tools in Java, I eventually settled on a strategy that would take a little longer, but would also give me a lot more control of designing error handling (something I was still unable to adequately figure out in scala's JavaTokenParsers).
 
 ## Questions
 
@@ -24,11 +14,19 @@ design process.
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+The most pressing issue for my project is still working on finding strategies for the final "output to PDF" part of the project. If I do decide to write everything in an intermediate language, that will take a while to plan out; if I find a really good library, it'll take some time to learn, so I'll need to come to a final decision on that in the very short term.
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+I don't really have any questions for my critique partners, orther than if the work I've done for my DSL makes sense so far, and if there's any more input on working with pdfs.
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
 
+I spent... maybe five or six hours? A lot of it was fruitless research into potentially useful libraries, though, so I still need to do a lot more.
+
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
+
+I'm still somewhat behind of where I intended to be. While I still have some work to do on parsing, that's alright becuase it'll make error checking easier. I also have a lot of work to do on creating the final output pdf, though, which isn't great.
